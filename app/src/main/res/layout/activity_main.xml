@@ -341,7 +341,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -362,7 +362,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -383,7 +383,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -404,7 +404,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -425,7 +425,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView

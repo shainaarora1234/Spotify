@@ -435,20 +435,21 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="368dp"
-        android:layout_height="47dp"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginTop="-2dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
         android:orientation="horizontal"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintHorizontal_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -469,7 +470,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -490,7 +491,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -511,7 +512,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -532,7 +533,7 @@
         <LinearLayout
             android:layout_width="75dp"
             android:layout_height="match_parent"
-            android:background="#000000"
+            android:background="#2a2a2a"
             android:orientation="vertical">
 
             <ImageView
@@ -545,9 +546,10 @@
                 android:id="@+id/textk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Your Library"
+                android:text="YourLibrary"
                 android:textAlignment="center"
-                android:textColor="@android:color/background_light" />
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
         </LinearLayout>
     </LinearLayout>
 
