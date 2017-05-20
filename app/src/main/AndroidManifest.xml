@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity$HomeSpotify" />
-        <activity android:exported="true" android:name=".Main2Activity"></activity>
+        <activity
+            android:name=".Main2Activity"
+            android:exported="true" />
+        <activity android:exported="true" android:name=".search"></activity>
     </application>
 
 </manifest>
