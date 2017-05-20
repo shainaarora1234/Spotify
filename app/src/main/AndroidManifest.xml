@@ -9,18 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity$HomeSpotify" />
+        <activity android:name=".library" android:exported="true" />
         <activity
-            android:name=".Main2Activity"
+            android:name=".radio"
             android:exported="true" />
         <activity android:exported="true" android:name=".search"></activity>
+        <activity android:name=".browse" android:exported="true"></activity>
+ 
+
     </application>
 
 </manifest>

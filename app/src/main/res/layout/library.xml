@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
-    tools:context="com.example.a1691576.spotify.MainActivity">
+    tools:context="com.example.a1691576.spotify.library">
 
     <LinearLayout
         android:layout_width="390dp"
@@ -356,6 +356,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Home"
+                android:onClick="home"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
@@ -370,7 +371,8 @@
                 android:id="@+id/imageVsh"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/browse" />
+                app:srcCompat="@drawable/browse"
+                android:onClick="browse"/>
 
             <TextView
                 android:id="@+id/textView11"
@@ -391,7 +393,8 @@
                 android:id="@+id/imageViewd"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/search" />
+                app:srcCompat="@drawable/search"
+                android:onClick="search"/>
 
             <TextView
                 android:id="@+id/textView1c"
@@ -412,7 +415,8 @@
                 android:id="@+id/imageVieda"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/radio" />
+                app:srcCompat="@drawable/radio"
+                android:onClick="radio"/>
 
             <TextView
                 android:id="@+id/textVdh"
@@ -433,7 +437,8 @@
                 android:id="@+id/imagel"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/lines" />
+                app:srcCompat="@drawable/lines"
+                android:onClick="library"/>
 
             <TextView
                 android:id="@+id/textk"

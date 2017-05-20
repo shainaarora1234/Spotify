@@ -366,7 +366,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/home" />
+                app:srcCompat="@drawable/home"
+                android:onClick="home"/>
 
             <TextView
                 android:id="@+id/textViewh"
@@ -411,7 +412,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="#292a2c"
-                app:srcCompat="@drawable/search" />
+                app:srcCompat="@drawable/search"
+                android:onClick="search"/>
 
             <TextView
                 android:id="@+id/textView1c"
@@ -432,7 +434,8 @@
                 android:id="@+id/imageVieda"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/radio" />
+                app:srcCompat="@drawable/radio"
+                android:onClick="radio"/>
 
             <TextView
                 android:id="@+id/textVdh"
@@ -454,7 +457,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
 
-                app:srcCompat="@drawable/lines" />
+                app:srcCompat="@drawable/lines"
+                android:onClick="library"/>
 
             <TextView
                 android:id="@+id/textk"

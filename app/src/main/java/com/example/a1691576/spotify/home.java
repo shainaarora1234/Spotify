@@ -5,20 +5,23 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class search extends AppCompatActivity {
+public class home extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.search);
 
+
+
+
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.home);
+        }
+    public void search(View view) {
+        Intent intent=new Intent(this,search.class);
+        startActivity(intent);
     }
     public void browse(View view) {
         Intent intent=new Intent(this,browse.class);
-        startActivity(intent);
-    }
-    public void home(View view) {
-        Intent intent=new Intent(this,home.class);
         startActivity(intent);
     }
     public void library(View view) {
@@ -29,4 +32,6 @@ public class search extends AppCompatActivity {
         Intent intent=new Intent(this,radio.class);
         startActivity(intent);
     }
-}
+        }
+
+
