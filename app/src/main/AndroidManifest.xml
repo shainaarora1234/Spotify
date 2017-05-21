@@ -21,7 +21,8 @@
             android:name=".radio"
             android:exported="true" >
         </activity>
-        <activity android:name=".browse">
+        <activity android:exported="true" android:name=".browse">
+
 
         </activity>
         <activity android:name=".search" android:exported="true"/>

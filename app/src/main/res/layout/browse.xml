@@ -346,13 +346,15 @@
 
     <LinearLayout
         android:layout_width="385dp"
-        android:layout_height="76dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="8dp"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="66dp"
         android:background="#292a2c"
         android:orientation="horizontal"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
@@ -368,15 +370,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="36dp"
                 android:layout_gravity="center"
-                app:srcCompat="@drawable/home"
-                android:onClick="home"/>
+                android:onClick="home"
+                app:srcCompat="@drawable/home" />
 
             <TextView
                 android:id="@+id/textViewh"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Home"
                 android:background="#292a2c"
+                android:text="Home"
                 android:textAlignment="center"
                 android:textColor="@android:color/background_light" />
         </LinearLayout>
@@ -414,8 +416,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="#292a2c"
-                app:srcCompat="@drawable/search"
-                android:onClick="search"/>
+                android:onClick="search"
+                app:srcCompat="@drawable/search" />
 
             <TextView
                 android:id="@+id/textView1c"
@@ -436,8 +438,8 @@
                 android:id="@+id/imageVieda"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/radio"
-                android:onClick="radio"/>
+                android:onClick="radio"
+                app:srcCompat="@drawable/radio" />
 
             <TextView
                 android:id="@+id/textVdh"
@@ -459,8 +461,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
 
-                app:srcCompat="@drawable/lines"
-                android:onClick="library"/>
+                android:onClick="library"
+                app:srcCompat="@drawable/lines" />
 
             <TextView
                 android:id="@+id/textk"
