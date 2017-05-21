@@ -28,4 +28,8 @@ public class browse extends AppCompatActivity {
         Intent intent=new Intent(this,radio.class);
         startActivity(intent);
     }
+    public void charts(View view) {
+        Intent intent=new Intent(this,Charts.class);
+        startActivity(intent);
+    }
 }

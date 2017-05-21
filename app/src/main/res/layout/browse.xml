@@ -188,7 +188,8 @@
                         android:text="Charts"
                         android:textColor="@android:color/background_light"
                         android:textSize="18sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:onClick="charts"/>
 
                     <TextView
                         android:id="@+id/textView9"

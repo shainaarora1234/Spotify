@@ -24,6 +24,7 @@
         <activity android:name=".browse">
 
         </activity>
+        <activity android:name=".search" android:exported="true"/>
 
 
     </application>

@@ -349,7 +349,8 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/home" />
+                app:srcCompat="@drawable/home"
+                android:onClick="home"/>
 
             <TextView
                 android:id="@+id/textViewh"
