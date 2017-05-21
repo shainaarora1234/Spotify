@@ -133,7 +133,7 @@
                     android:id="@+id/textView44"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView"
+                    android:text="Canada Viral 50"
                     android:textAlignment="center"
                     android:textColor="@android:color/background_light" />
             </LinearLayout>
