@@ -25,6 +25,7 @@
 
         </activity>
         <activity android:name=".search" android:exported="true"/>
+        <activity android:name=".Charts" android:exported="true"/>
 
 
     </application>

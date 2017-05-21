@@ -545,6 +545,7 @@
                 android:id="@+id/imagel"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:onClick="library"
                 app:srcCompat="@drawable/lines" />
 
             <TextView
